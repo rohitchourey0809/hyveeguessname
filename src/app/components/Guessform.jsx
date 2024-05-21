@@ -34,7 +34,7 @@ export default function Guessform() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-gray-100">
       <div className="w-full max-w-md p-8 bg-white shadow-lg rounded-lg">
-        <h1 className="text-2xl text-cyan font-bold mb-6 text-center">
+        <h1 className="text-2xl text-cyan-950   font-serif font-bold mb-6 text-center hover:text-pink-600 hover:underline">
           Guess Name
         </h1>
         <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
@@ -48,7 +48,7 @@ export default function Guessform() {
           />
           <button
             type="submit"
-            className="p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200"
+            className="p-3 hover:text-pink-600 bg-blue-500 text-white rounded-md  hover:bg-green-600 transition duration-200"
           >
             Guess
           </button>
@@ -56,7 +56,7 @@ export default function Guessform() {
 
         {data && (
           <div className="mt-6 p-4 bg-gray-50 rounded-lg shadow-inner transition duration-300 ease-in-out transform hover:scale-105">
-            <h2 className="text-xl font-semibold mb-4">Results</h2>
+            <h2 className="text-xl text-black font-semibold  mb-4 hover:text-pink-600">Results</h2>
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-200 text-wrap">
                 <tr>
