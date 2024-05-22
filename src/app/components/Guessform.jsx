@@ -21,6 +21,7 @@ export default function Guessform() {
     const countryData = await countryRes.json();
 
     const result = {
+      name: ageData.name,
       age: ageData.age,
       gender: genderData.gender,
       country: countryData.country,
@@ -29,6 +30,7 @@ export default function Guessform() {
     console.log("result", result);
 
     setData(result);
+    setName("")
   };
 
   return (

@@ -20,6 +20,10 @@ const Table = ({ data }) => {
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
           <tr>
+            <td className="px-4 py-2 text-sm text-gray-500">Name</td>
+            <td className="px-4 py-2 text-sm text-gray-900">{data.name}</td>
+          </tr>
+          <tr>
             <td className="px-4 py-2 text-sm text-gray-500">Age</td>
             <td className="px-4 py-2 text-sm text-gray-900">{data.age}</td>
           </tr>
