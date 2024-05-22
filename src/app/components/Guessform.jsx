@@ -35,7 +35,7 @@ export default function Guessform() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-gray-100">
-      <div className="animate-wiggle-more w-full max-w-lg p-6 bg-white shadow-lg rounded-lg">
+      <div className="animate-wiggle-more animate-infinite w-full max-w-lg p-6 bg-white shadow-lg rounded-lg">
         <h1 className="animate-wiggle-more animate-infinite  text-2xl hover:text-cyan-950 font-serif font-bold mb-6 text-center text-pink-600 hover:underline">
           Guess Name
         </h1>
@@ -50,7 +50,7 @@ export default function Guessform() {
           />
           <button
             type="submit"
-            className="animate-bounce   p-3 hover:text-pink-600 bg-blue-500 text-white rounded-md hover:bg-green-600 transition duration-200"
+            className="animate-bounce    p-3 hover:text-pink-600 bg-blue-500 text-white rounded-md hover:bg-green-600 transition duration-200"
           >
             Guess
           </button>

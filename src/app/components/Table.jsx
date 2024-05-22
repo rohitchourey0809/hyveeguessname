@@ -3,7 +3,7 @@ import React from "react";
 
 const Table = ({ data }) => {
   return (
-    <div className="mt-6 p-4 bg-gray-50 rounded-lg shadow-inner transition duration-300 ease-in-out transform hover:scale-105 w-full overflow-x-auto">
+    <div className="animate-flip-down animate-infinite mt-6 p-4 bg-gray-50 rounded-lg shadow-inner transition duration-300 ease-in-out transform hover:scale-105 w-full overflow-x-auto">
       <h2 className="text-xl text-black font-semibold mb-4 hover:text-pink-600">
         Results
       </h2>

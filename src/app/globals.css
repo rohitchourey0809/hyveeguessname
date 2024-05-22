@@ -45,3 +45,20 @@ body {
 .animate-wiggle-more {
   animation: wiggle 1s infinite;
 }
+
+
+@keyframes flip-down {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.animate-flip-down {
+  animation: flip-down 2s infinite;
+}
